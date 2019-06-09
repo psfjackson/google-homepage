@@ -1,0 +1,19 @@
+.G-logo{
+height:250px;
+margin-top: 100px
+}
+
+.logoimg{
+    display: block;
+    margin: 0 auto;
+}
+
+.searchbar-area{
+    height:50px;
+    margin-top: 50px
+    }
+
+.G-searchbar {
+    display: block;
+    margin: 0 auto;
+}
