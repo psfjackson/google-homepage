@@ -43,7 +43,7 @@ margin-top: 145px
     border-radius: 27px;
     border: 1px solid #c2c2c2;
     margin: auto;
-    padding-left: 25px:
+    padding-left: 25px;
 }
 
 .G-searchbar:hover{
@@ -154,10 +154,21 @@ margin-top: 145px
     align-items : center;
 }
 
+/* frame spacing */
+
 .f2, .f1, .navbar{
     padding: 0 35px;
 }
 
+/*Button spacing mods*/
+
+.btnl{
+    padding-left:20px;
+}
+
+.btnr{
+    padding-left:20px;
+}
 
 
 
