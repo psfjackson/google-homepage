@@ -1,12 +1,12 @@
 p, body, a{
     font-family: arial,sans-serif;
-    font-weight: 100;
+    font-weight: lighter;
+    color: #5f6368;
 }
 
 
 a{
     font-size: 16px;
-    color: rgba(45,45,45,1);
     text-decoration: none;
 }
 
@@ -19,7 +19,7 @@ a:hover{
 
 .G-logo{
 height:250px;
-margin-top: 135px
+margin-top: 145px
 }
 
 .logoimg{
@@ -134,22 +134,24 @@ margin-top: 135px
     background: rgba(0,0,0, 0.05);
     width: 100%;
     height: auto;
+    border-top: 1px solid #dddddd;
+
 }
 
 .f1{
    height: 65px;
-   border-top: 1px solid #e4e4e4;
-   vertical-align: middle; 
-   font-size: 22px;
-   font-weight: 100;
+   font-size: 21px;
+   font-weight: lighter;
+   display: table-cell;
+   vertical-align: middle;
 }
 
 .f2{
-    height: 45px;
+    height: 55px;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #e4e4e4;
-
+    border-top: 1px solid #dddddd;
+    align-items : center;
 }
 
 .f2, .f1, .navbar{
