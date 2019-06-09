@@ -1,3 +1,20 @@
+p, body, a{
+    font-family: arial,sans-serif;
+    font-weight: 100;
+}
+
+
+a{
+    font-size: 16px;
+    color: rgba(45,45,45,1);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
 /*  Google logo */
 
 .G-logo{
@@ -80,4 +97,53 @@ margin-top: 100px
     margin: 0 10px;
 }
 
+.Sbtn:hover{
+    border: 1px solid rgba( 185, 185, 185, 1);
+}
+
 /* navbar top */
+
+.Navbar {
+    height: 100px;
+    width: 100%;
+    top: 20px;
+    position: fixed;
+    background: none;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.nb-left{
+  
+}
+
+.nb-right{
+    
+
+}
+
+/* footer */
+
+.footer{
+    position: fixed;
+    bottom: 50px;
+    background: rgba(210,210,210,1);
+    width: 100%;
+    height: auto;
+}
+
+.f1{
+    height: 50px;
+    border-bottom: 1px solid rbga(205,205,205,1);
+}
+
+.f2{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
