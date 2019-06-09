@@ -15,29 +15,29 @@ margin-top: 100px
 
 .searchbarArea{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .G-searchbar {
     display: block;
     margin: 0 auto;
     height: 60px;
-    width: 800px;
+    width: 650px;
     border-radius: 30px;
     border: 1px solid #c2c2c2;
     margin: auto;
-    padding-left: 20px:
+    padding-left: 25px:
 }
 
 .G-searchbar:hover{
     border: none;
-    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    box-shadow: 0 0px 6px 0 rgba(32,33,36,0.28);
 }
 
 .Isbar{
     border: none;
     height: 100%;
-    width: 680px;
+    width: 80%;
     padding-left: 20px;
     background: none;
 }
@@ -50,7 +50,7 @@ margin-top: 100px
     background: none}
 
 .mic-btn{
-    height: 60%;
+    height: 55%;
     padding-top:20%;
 }
 
@@ -63,16 +63,21 @@ margin-top: 100px
 /*  Search buttons  */
 
 .G-buttons{
-    display: block;
-    margin: 0 auto;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
 }
 
 .Sbtn{
-    height: 70px;
-    width: 160px;
-    border: 1px solid #ccc;
-    background: #c2c2c2
-
+    height: 45px;
+    width: 180px;
+    border: 0px solid #ccc;
+    background: #f1f1f1;    
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
 }
 
+/* navbar top */
