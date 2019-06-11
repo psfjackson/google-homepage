@@ -18,7 +18,7 @@ a:hover{
 /*  Google logo */
 
 .G-logo{
-height:150px;
+height:220px;
 margin-top: 90px;
 display: flex;
 justify-content: center;
@@ -67,12 +67,12 @@ align-items: center;
     float: right;
     width: 50px;
     height: 100%;
-    padding-right: 10px;
+    padding-right: 2px;
     background: none}
 
 .mic-btn{
     height: 60%;
-    padding-top:20%;
+    padding-top:18%;
 }
 
 .G-mic{
@@ -92,15 +92,19 @@ align-items: center;
 
 .Sbtn{
     height: 35px;
-    width: 150px;
+    width: 145px;
     border: 0px solid #ccc;
     background: #f1f1f1;    
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    margin: 0 10px;
+    margin: 0 8px;
     font-size: 14px;
     color: #5f6368
+}
+
+.search {
+    width: 130px;
 }
 
 .Sbtn:hover{
